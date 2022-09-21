@@ -8,13 +8,13 @@ export default function Header(){
     <Nav>
       <Link to="/">
         <FaHome size={ 24 } />
-      </Link>
+      </ Link>
       <Link to="/login">
         <FaUserAlt size={ 24 } />
-      </Link>
+      </ Link>
       <Link to="/signin">
         <FaSignInAlt size={ 24 } />
-      </Link>
+      </ Link>
     </ Nav>
   )
 }

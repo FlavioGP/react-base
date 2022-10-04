@@ -3,11 +3,11 @@ import {toast} from 'react-toastify';
 import * as actions from './action';
 import * as types from '../types';
 
-// eslint-disable-next-line no-unused-vars
-const requisicao = () => new Promise((resolve, reject) =>{
+
+const requisicao = () => new Promise((resolve) =>{
   setTimeout(() => {
-    reject();
-  }, 2000);
+    resolve();
+  }, 600);
 });
 
 function* exampleRequest() {
